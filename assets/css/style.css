@@ -77,7 +77,7 @@ h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #fff;
+  background: #ffffff;
 }
 
 #preloader:before {
@@ -322,7 +322,7 @@ h6 {
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
-  color: #45505b;
+  color: #000000;
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
@@ -331,6 +331,23 @@ h6 {
 #hero .social-links a:hover {
   color: #0563bb;
 }
+#hero .social-links .google a:hover {
+  color: #e2293e;
+}
+#hero .social-links .linkedin a:hover {
+  color: #3735c5;
+}
+#hero .social-links .instagram a:hover {
+  color: #eb37ee;
+}
+#hero .social-links .twitter a:hover {
+  color: #1097e6;
+}
+#hero .social-links .github a:hover {
+  color: #6d7479;
+}
+
+
 
 @media (max-width: 992px) {
   #hero {
@@ -951,15 +968,15 @@ section {
   fill: #bb369c;
 }
 /*hereku*/
-.services .iconbox-heroku i {
+.services .iconbox-vercel i {
   color: #501edc;
 }
 
-.services .iconbox-heroku:hover .icon i {
+.services .iconbox-vercel:hover .icon i {
   color: #fff;
 }
 
-.services .iconbox-heroku:hover .icon path {
+.services .iconbox-vercel:hover .icon path {
   fill: #5208b4;
 }
 
@@ -1146,8 +1163,28 @@ section {
   transition: 0.3s;
 }
 
-#footer .social-links a:hover {
-  background: #0678e3;
+#footer .social-links  .google a:hover {
+  background: #eb0808;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .social-links .linkedin a:hover {
+  background: #135fa7;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .social-links .github a:hover {
+  background: #373a3e;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .social-links .twitter a:hover {
+  background: #1097e6;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .social-links .instagram a:hover {
+  background: #eb37ee;
   color: #fff;
   text-decoration: none;
 }
