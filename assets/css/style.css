@@ -264,12 +264,14 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 100%;
+  width:auto;
   height: 100vh;
-  background: url("../img/backg.jpg") top right no-repeat;
+  background: url("../img/back-img.jpeg") top right no-repeat;
+  background-repeat:repeat-x;
+  /* background-repeat:no-repeat; */
   background-size: cover;
   position: relative;
-  /* opacity: 1; */
+  /* opacity: 0.5; */
 }
 
 @media (min-width: 992px) {
