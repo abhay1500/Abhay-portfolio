@@ -525,7 +525,7 @@ section {
   transition: 0.9s;
   background-color: #0563bb;
 }
-/* .skills .progress-bar-1 {
+.skills .progress-bar-1 {
   width: 1px;
   height: 10px;
   transition: 0.9s;
@@ -602,7 +602,7 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #0563bb;
-} */
+}
 
 /*--------------------------------------------------------------
 # Resume - start
